@@ -55,7 +55,7 @@ def GQ_2():
 
     return df
 
-# GQ_2()
+GQ_2()
 
 def GQ_3():
     base_url = 'https://github.com/byuidatascience/data4missing/'
@@ -75,7 +75,7 @@ def GQ_3():
     print("Median Month in the Data Set is the ", round(df.mean(), 0), "th")
     return df
 
-# GQ_3()
+GQ_3()
 
 def GQ_4():
     base_url = 'https://github.com/byuidatascience/data4missing/'
